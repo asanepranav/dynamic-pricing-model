@@ -5,7 +5,7 @@ A production-grade dynamic pricing engine trained on 100k+ real Brazilian e-comm
 ---
 # 💰 Dynamic Pricing Model — Olist E-commerce
 
-🔗 **[Live Demo](dynamic-pricing-model-9bwsfvhxzgr9ldinmfokud.streamlit.app)** | **[GitHub](https://github.com/asanepranav/dynamic-pricing-model)**
+🔗 **[Live Demo](https://dynamic-pricing-model-9bwsfvhxzgr9ldinmfokud.streamlit.app)** | **[GitHub](https://github.com/asanepranav/dynamic-pricing-model)**
 
 ---
 
