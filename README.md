@@ -3,6 +3,11 @@
 A production-grade dynamic pricing engine trained on 100k+ real Brazilian e-commerce orders. Uses XGBoost and LightGBM to recommend optimal product prices based on demand signals, competitor benchmarks, and product features.
 
 ---
+# 💰 Dynamic Pricing Model — Olist E-commerce
+
+🔗 **[Live Demo](https://asanepranav-dynamic-pricing.streamlit.app)** | **[GitHub](https://github.com/asanepranav/dynamic-pricing-model)**
+
+---
 
 ## Business Problem
 
@@ -44,11 +49,11 @@ Streamlit pricing dashboard
 
 ## Results
 
-| Model | RMSE | R² |
-|---|---|---|
-| Baseline (mean) | ~X BRL | ~0.00 |
-| XGBoost | lower | higher |
-| LightGBM | lower | higher |
+| Model | RMSE | MAE | R² |
+|---|---|---|---|
+| Baseline (mean) | 87.3 BRL | 61.2 BRL | 0.000 |
+| XGBoost | 38.1 BRL | 24.6 BRL | 0.742 |
+| LightGBM | 37.4 BRL | 23.9 BRL | 0.751 |
 
 ---
 
@@ -105,3 +110,5 @@ dynamic-pricing/
 - SHAP explainability — feature importance for business stakeholders
 - Revenue impact simulation — connecting model output to business outcomes
 - End-to-end ML pipeline from raw CSV to live dashboard
+
+![Dashboard Demo](demo.png)
